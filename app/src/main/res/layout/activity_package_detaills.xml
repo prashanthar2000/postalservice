@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drop_point">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Details of the package"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="23dp"
+            android:text="weight"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginLeft="9dp"
+            android:layout_marginBottom="-10dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:ems="10"
+            android:hint="grams"
+            android:inputType="textPersonName|numberDecimal">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="28dp"
+            android:text="dimention"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <EditText
+            android:id="@+id/editText19"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="-11dp"
+            android:layout_toEndOf="@+id/textView3"
+            android:ems="10"
+            android:hint="cm"
+            android:inputType="textPersonName|numberDecimal" />
+
+        <EditText
+            android:id="@+id/editText20"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="57dp"
+            android:ems="10"
+            android:hint="cm"
+            android:inputType="textPersonName|numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="21dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="105dp"
+            android:layout_toEndOf="@+id/editText19"
+            android:text="X"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <EditText
+            android:id="@+id/editText22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="153dp"
+            android:layout_marginTop="142dp"
+            android:ems="10"
+            android:hint="comment on package"
+            android:inputType="textMultiLine" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="7dp"
+            android:text="@string/next" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

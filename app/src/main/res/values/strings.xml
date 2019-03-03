@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">postal service</string>
+    <string name="signin">Sign In</string>
+    <string name="title_activity_personal_details">personal_details</string>
+    <string name="alert_message">Can we proceed to sign in  </string>
+    <string name="alert_title">conformation </string>
+    <string name="next">next </string>
+    <string name="title_activity_just_check">just_check</string>
+    <string name="title_activity_map">Map</string>
+</resources>

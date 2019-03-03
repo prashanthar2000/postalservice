@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drop_point">
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:ems="10"
+            android:hint="State"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:ems="10"
+            android:hint="city"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="93dp"
+            android:ems="10"
+            android:hint="street"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="136dp"
+            android:ems="10"
+            android:hint="House number"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText11"
+            android:ems="10"
+            android:hint="Landmark"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText12"
+            android:ems="10"
+            android:hint="pincode"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="27dp"
+            android:text="@string/next" />
+
+        <Button
+            android:id="@+id/maps"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="88dp"
+            android:text="Maps" />
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/maps"
+            android:layout_marginBottom="37dp"
+            android:ems="10"
+            android:hint="Phone no of the receiver"
+            android:inputType="phone" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
